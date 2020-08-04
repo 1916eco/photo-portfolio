@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  top: 0px;
+  position: sticky;
+  z-index: 100;
+  background-color: #f0edeb;
+}
+
+.header h1 {
+  padding-left: 3vh;
+}
