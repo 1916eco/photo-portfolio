@@ -59,7 +59,7 @@ label:hover {
   align-items: center;
   font-size: xx-large;
   justify-content: center;
-  /* background-color: #f0edeb; */
+  background-color: #f0edeb;
 }
 
 .header * {
@@ -108,11 +108,13 @@ label:hover {
   min-height: 100%;
   max-width: 150%;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -65px;
+  left: -50px;
 }
 /* For the modal darken background */
 .backdrop {
+  z-index: 101;
+
   position: fixed;
   top: 0;
   left: 0;
@@ -122,6 +124,7 @@ label:hover {
   background: rgba(0, 0, 0, 0.5);
 }
 .backdrop img {
+  z-index: 101;
   display: block;
   max-width: 60%;
   max-height: 80%;
